@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>2단 레이아웃</title>
+<style>
+div{ border:1px solid #ccc;
+     padding:20px;
+     margin-bottom:10px;}
+.box1{ width:100px;}
+.box2{float:left;}
+.box3{float:right;}
+.box4{clear:both;}
+</style>
+</head>
+<body>
+<div class="box1">
+<h2>사이트 제목</h2>
+</div>
+<div class="box2">
+<h2>본문</h2>
+</div>
+<div class="box3">
+<h2>사이드 바</h2>
+</div>
+<div class="box4">
+<h2>푸터</h2>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>2단 레이아웃</title>
+<style>
+div{ border:1px solid #ccc;}
+#container{
+  
+  padding:20px;
+  margin-bottom:20px; }
+ #header{
+  padding:20px;
+  margin-bottom:20px;}
+  #contents{
+  width:800px;
+  padding:20px;
+  float: left;
+  margin-bottom:20px;}
+  #sidebar{
+   width:500px;
+  padding:20px;
+  float: right;
+  margin-bottom: 20px;
+  background:#eee;}
+  #footer{
+  clear:both;
+  padding:20px;}
+</style>
+</head>
+<body>
+<div id="container">
+<h2>사이트 제목</h2>
+</div>
+<div id="header">
+<h2>헤더</h2>
+</div>
+<div id="contents">
+<h2>컨텐츠</h2>
+</div>
+<div id="sidebar">
+<h2>사이드 바</h2>
+</div>
+<div id="footer">
+<h2>푸터</h2>
+</div>
+</body>
+</html>

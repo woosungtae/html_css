@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>3번시험</title>
+<style>
+    *{
+    padding:5;
+    margin:5;
+    }
+    header {
+    border : 1px solid green;
+    height: 80px;
+    margin-bottom: 10px;
+        }
+   #address {
+    width: 600px;
+    font-size: 12px;
+      }
+   #address ul {
+    list-style-type :none;
+    float: left;
+    margin-bottom : 0;
+        }
+   #address li {
+     display: inline;
+     padding: 2px;
+        }
+    #customer {
+     float: right;
+     margin-top:-40px;
+     margin-right:20px;
+     font-size:15;
+      
+        }
+     nav {
+      border : 1px solid green;
+      height: 60px;
+      margin-bottom: 10px;
+        }
+   .content {
+      display: inline;
+      height: 300px;
+        }
+    section {
+     border: 1px solid green;
+     height: 300px;
+     width: 600px;
+     float: left;
+     margin-right: 20px;
+     margin-bottom: 10px;
+        }
+    aside {
+     border: 1px solid green;
+     height: 300px;
+     width: 350px;
+     float: right;
+        }
+    footer {
+     border: 1px solid green;
+     height: 150px;
+     clear: both;
+     background-color: beige;
+      }
+    #contain{
+    width: 875px;
+    height: 100px;
+    display: inline-block;
+    background-color:white;
+    margin-left: 90px;
+        }
+   #sec1{
+    margin-top:5px;
+        }
+  img{
+    float:right;
+    margin-left:10px;
+   }
+      
+      
+    </style>
+</head>
+<body>
+    <header>
+      <div>상단 헤더</div>
+    </header>
+    <nav>
+       <div>내비게이션 메뉴</div>
+    </nav>
+    <div id="content">
+        <section>
+         <div>메인 콘텐츠</div>
+        </section>
+        <aside>
+            <div>사이드 바</div>
+        </aside>
+    </div>
+    <footer>
+        <div>
+           하단 푸터
+        </div>
+        <div id="contain">
+            <div id="address">
+                <ul>
+                    <li> 루바토 손해보험(주) |   </li>
+                    <li>대표이사 : 홍길동 |</li>
+                    <li>사업자 등록번호: 323-32-123455|</li>
+                </ul>
+                <ul id="sec1">
+                    <li>전화: 02-123-1234 |</li>
+                    <li>서울시 강남구 가나다통 123번지</li>
+                  
+                </ul>
+                <ul>
+                    <li>Copyright by Rubato Company All Rights Reserved.</li>
+                </ul>
+               
+            </div>
+            <div id="customer">
+               <p>고객센터 1588-1234</p>
+                <img src="images/dot.png">
+                <img src="images/dot.png">
+                <img src="images/dot.png">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

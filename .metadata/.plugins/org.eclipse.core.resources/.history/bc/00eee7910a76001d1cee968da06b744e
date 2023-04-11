@@ -1,0 +1,63 @@
+@charset "utf-8";
+nav{
+	width:100%;
+	height:60px;
+	
+	background-color:#069;
+}
+nav ul{
+	list-style-type:none;
+}
+nav ul li{
+	display:inline-block;
+	margin:20px;
+}
+nav ul li a {
+	color:white;
+	text-decoration:none;
+}
+article{
+	width:100%;
+	margin-right: auto;
+	margin-left:auto;
+	border:5px solid #333;
+	padding:5px;
+	overflow:hidden;
+}
+#sec1{
+	background-color:skyblue;
+}
+#sec2{
+	background: url('../images/cover.jpg')no-repeat center;
+}
+article section{
+	width:30%;
+	height:650px;
+	float: left;
+	margin:5px;
+	padding:5px;
+	border:1px dotted #333;
+}
+article #at1{
+	background-color:blue;
+}
+section h3{
+	background: url('../images/dot.png') no-repeat left center;
+	padding-left: 30px;
+}
+
+aside{
+	clear:both;
+	margin:0 auto;
+	width:100%;
+	height:auto;
+	padding:10px;
+	background-color:#99cc33
+}
+footer{
+	padding: 10px 0;
+	background-color: #030;
+	color: #fff;
+	text-align: center;
+	clear:both;
+}

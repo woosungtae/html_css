@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>dldldl</title>
+</head>
+<style>
+img{float:left;}
+ dt{
+  color:purple;
+ }
+</style>
+<body>
+<section>
+<h3><img src="images/tick.png" alt="dd">활달한 강아지</h3>
+<dl>
+   <dt><storng>요크셔</storng></dt>
+  <dd>못생김</dd>
+   <dt>말티즈</dt>
+   <dd>잘생김</dd>
+   <dt>포메</dt>
+   <dd>못생김</dd>
+   <dt>리트리버</dt>
+   <dd>큼</dd>
+</dl>
+</section>
+</body>
+</html>

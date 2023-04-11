@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>1번 시험</title>
+<style>
+  *{
+   padding:1;
+  margin:1;   
+   }
+ header{
+   border : 1px solid green;
+   height: 80px;
+   margin-bottom: 10px;
+       }
+ nav {
+   border : 1px solid green;
+   height: 60px;
+   margin-bottom: 10px;
+      }
+ section{
+  border: 1px solid green;
+  height: 200px;
+  width: 550px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background: url(images/dog.jpg) no-repeat;
+         }
+      
+  aside{
+   border: 1px solid green;
+   height: 200px;
+   width: 350px;
+   float: right;
+   background-color: yellow;
+       }
+ footer{
+   clear: both; 
+   border: 1px solid green;
+   height: 100px;  
+   margin-top: 200px;
+       }
+</style>
+</head>
+<body>
+    <header>
+       <div>상단 헤더</div>
+    </header>
+    <nav>
+      <div>내비게이션 메뉴</div>
+    </nav>
+        <section>
+          <div>메인 콘텐츠</div>
+        </section>
+      <aside>
+          <div>사이드 바</div>
+      </aside>
+      <footer>
+          <div>하단 푸터</div>
+      </footer>
+</body>
+</html>

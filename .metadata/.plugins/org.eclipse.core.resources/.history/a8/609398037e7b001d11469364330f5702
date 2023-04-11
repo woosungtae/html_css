@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>2번시험</title>
+ <style>
+    * {
+     padding: 0;
+     margin: 0;
+      }
+     header {
+      border : 1px solid green;
+      height: 80px;
+      margin-bottom: 10px;
+      background-color: beige;
+      text-align: center;
+        }
+      #contain {
+      display: inline;
+      float: left;
+      height: 50px;
+      width: 300px;
+      height: 60px;
+      border: 1px solid gray;
+      margin: 10px;
+      background-color: white;
+        }
+      #logo {
+       float: left;
+       width: 90px;
+       height:40px;
+       border: 1px solid green;
+       margin: 5px;
+       text-align: center;
+       padding:5px;
+       font-size: 25px;
+       color: darkgreen;
+       background-color: white;
+        }
+      #word {
+       float: right;
+       font-size: 10px;
+       text-align: right;
+       margin-top: 35px;
+       padding: 5px;
+       color: gray
+        }
+   #name {
+      margin-top : 50px;
+      }
+    #top ul {
+     list-style : none;
+     border: 1px solid black;
+     float: right;
+     width: 270px;
+     height: 20px;
+     background-color: white;
+     text-align: center;
+     padding-left: 0;
+     margin-right: 10px;
+     margin-top: 30px;
+        }
+  #top ul li {
+     display: inline;
+     border-right: 1px solid black;
+              }
+  #top li:hover {
+             color: red;
+                }
+   nav {
+    border : 1px solid green;
+    height: 60px;
+    margin-bottom: 10px;
+       }
+   .content {
+    display: inline;
+    height: 300px;
+            }
+  section {
+    border: 1px solid green;
+    height: 300px;
+    width: 600px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+          }
+     aside {
+     border: 1px solid green;
+     height: 300px;
+     width: 350px;
+     float: right;
+        }
+  footer {
+     border: 1px solid green;
+     height: 100px;
+     clear: both;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <div id="contain">
+            <div id="logo"> RUBATO </div>
+            <div id="word"> 신뢰로 보답하는 루바토 손해보험</div>
+        </div>
+        <div id="top">
+            <ul>
+                <li>로그인</li>
+                <li>회원가입</li>
+                <li>사이트 맵</li>
+                <li>회사소개</li>
+            </ul>
+        </div>
+        <div id="name">상단 헤더</div>
+    </header>
+    <nav>
+        <div>내비게이션 메뉴</div>
+    </nav>
+    <div id="content">
+        <section>
+            <div>메인 콘텐츠</div>
+        </section>
+        <aside>
+            <div>사이드 바</div>
+        </aside>
+    </div>
+    <footer>
+        <div>하단 푸터</div>
+    </footer>
+</body>
+</html>
